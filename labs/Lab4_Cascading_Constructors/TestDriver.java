@@ -1,5 +1,5 @@
 /*
-* Lab 3: Cascading Constructors
+* Lab 4: Cascading Constructors
 * Filename: TestDriver.java
 * Description: This java file demonstrates a Test Driver file to test the different
 * types of contructors for the Animals object class.
