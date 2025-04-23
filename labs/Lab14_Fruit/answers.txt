@@ -1,0 +1,28 @@
+1. Is the object fruit an instance of Fruit?
+Yes
+2. Is the object fruit an instance of Orange?
+No
+3. Is the object fruit an instance of Apple?
+Yes
+4. Is the object fruit an instance of GoldenDelicious?
+Yes
+5. Is the object fruit an instance of Macintosh?
+No
+6. Is the object orange an instance of Orange?
+Yes
+7. Is the object orange an instance of Fruit?
+Yes
+8. Suppose the method makeAppleCider() is defined only in the Apple class. Can fruit invoke this method? Can apple invoke this method?
+Fruit cannot invoke this method, but apple can.
+9. Does it make sense to add a makeAppleCider() method to the Fruit class? Why or why not?
+No, because you can't make AppleCider with any type of Fruit
+10. Now suppose the method makeAppleCider() is defined in the Apple, GoldenDelicious, and Macintosh classes. Identify the class of the method that is invoked when apple invokes the makeAppleCider() method.
+Apple class
+11. Suppose the method makeOrangeJuice is defined in the Orange class. Can orange invoke this method? Can fruit invoke this method?
+Orange class can invoke the method, but not Fruit class cannot.
+12. Is the statement Orange p = new Apple() legal?
+No, because Apple is not of type Orange
+13. Is the statement Macintosh p = new Apple() legal?
+No, because Macintosh is of type Apple
+14. Is the statement Apple p = new Macintosh() legal?
+Yes, creates new Macintosh object named p
